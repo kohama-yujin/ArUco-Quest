@@ -39,16 +39,16 @@ pip install -r requirements.txt
 > `Installing collected packages: ~~` が表示されたあとラグがありますが、`(venv) PS C:\Users\~~>`になるまで待ってください。
 
 3. ZED SDK のインストール  
-[ZED SDK](https://www.stereolabs.com/en-jp/developers/release)を開き、`CUDA 12 - TensorRT 10`の`ZED SDK for Windows 10/11 5.1`をダウンロードしてください。  
-ダウンロードした`~~.exe`を実行してSDKをインストールし、PCを再起動してください。  
-再起動後、`C:\Program Files (x86)\ZED SDK`にある`get_python_api.py`を適当なフォルダにコピーしてから実行し、PythonAPIをインストールしてください。  
+- [ZED SDK](https://www.stereolabs.com/en-jp/developers/release)を開き、`CUDA 12 - TensorRT 10`の`ZED SDK for Windows 10/11 5.1`をダウンロード
+- ダウンロードした`~~.exe`を実行してSDKをインストールし、PCを再起動
+- 再起動後、`C:\Program Files (x86)\ZED SDK`にある`get_python_api.py`を適当なフォルダにコピーしてから実行し、PythonAPIをインストール
 ```
 python ~~\get_python_api.py
 ```
 
 4. CUDAのインストール  
-[CUDA Toolkit 12.8](https://developer.nvidia.com/cuda-12-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)を開き、`cuda_12.8.x_xxx.exe`をダウンロードしてください。
-ダウンロードした`cuda_12.8.x_xxx.exe`を管理者権限で実行し、指示に従ってインストールしてください。
+- [CUDA Toolkit 12.8](https://developer.nvidia.com/cuda-12-8-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)を開き、`cuda_12.8.x_xxx.exe`をダウンロード
+- ダウンロードした`cuda_12.8.x_xxx.exe`を管理者権限で実行し、指示に従ってインストール
 
 
 ## 実行
