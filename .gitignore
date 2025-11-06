@@ -1,1 +1,3 @@
 __pycache__/
+APK/*
+!APK/ArUcoQuest.apk
