@@ -39,9 +39,9 @@ pip install -r requirements.txt
 3. ZED SDK のインストール  
 [ZED SDK](https://www.stereolabs.com/en-jp/developers/release)を開き、`CUDA 12 - TensorRT 10`の`ZED SDK for Windows 10/11 5.1`をダウンロードしてください。  
 ダウンロードした`~~.exe`を実行してSDKをインストールし、PCを再起動してください。  
-再起動後、以下を実行してPythonAPIをインストールしてください。  
+再起動後、`C:\Program Files (x86)\ZED SDK`にある`get_python_api.py`を適当なフォルダにコピーしてから実行し、PythonAPIをインストールしてください。  
 ```
-python .\get_python_api.py
+python ~~\get_python_api.py
 ```
 
 ## 実行
