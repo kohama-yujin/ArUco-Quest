@@ -2,6 +2,8 @@
 
 ## 環境
 - Windows 11
+- CUDA 12.8
+- ZED_SDK_Windows_cuda12.8_tensorrt10.9_v5.0.3
 - Unity Hub 3.13.0
 - Unity 6.1 (6000.1.12f1)
 - MQDH (Meta Quest Developer Hub)
