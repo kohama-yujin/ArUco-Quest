@@ -1,4 +1,5 @@
 # ArUco-Quest
+Meta Quest 3 でArUcoを動かすプロジェクトです。
 
 ## バージョン
 - Windows 11
