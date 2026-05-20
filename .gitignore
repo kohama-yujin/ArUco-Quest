@@ -1,0 +1,6 @@
+__pycache__/
+APK/*
+!APK/ArUcoQuest.apk
+ZED_SDK/*
+!ZED_SDK/get_python_api.py
+ArUco/marker_sheet/output/*

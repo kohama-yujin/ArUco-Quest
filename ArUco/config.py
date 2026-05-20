@@ -1,0 +1,1 @@
+MARKER_SIZE = 9.3  # cm
