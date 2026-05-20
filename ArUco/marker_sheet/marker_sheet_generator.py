@@ -33,7 +33,7 @@ class MarkerSheetGenerator:
         Path("output").mkdir(exist_ok=True)
         
         # ArUcoディクショナリー取得
-        self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
+        self.aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
     
     def generate_marker(self) -> Image.Image:
         """ArUcoマーカーを生成して返す"""
