@@ -1,10 +1,11 @@
 # ArUco-Quest
 
+## 概要
 Meta Quest 3 で ArUco を動かすプロジェクトです。  
 ZED-mini というステレオカメラを Meta Quest 3 の前面に固定してください。  
 また、PC と Meta Quest 3 は必ず同じ Wi-Fi に接続してください。
 
-## 関連プロジェクト
+### 関連プロジェクト
 
 - [ArUco-Quest v2](https://github.com/kohama-yujin/ArUco-Quest-v2)  
   立体視表示と深度オクルージョンに対応しています
